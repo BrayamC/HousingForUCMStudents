@@ -83,8 +83,7 @@ An app for students and staff members to find housing in Merced,CA.
         * profile
 
 ## Wireframes
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
-![](https://i.imgur.com/uXbLUS8.png)
+<img src="https://i.imgur.com/uXbLUS8.png" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
 
