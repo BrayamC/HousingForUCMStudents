@@ -1,4 +1,3 @@
-# HousingForUCMStudents
 Original App Design Project - README Template
 ===
 
@@ -69,9 +68,10 @@ An app for students and staff members to find housing in Merced,CA.
 
 **Tab Navigation** (Tab to Screen)
 
-* Login
-* [fill out your second tab]
-* [fill out your third tab]
+* feed
+* map
+* chat
+* profile
 
 **Flow Navigation** (Screen to Screen)
 
