@@ -84,16 +84,3 @@ An app for students and staff members to find housing in Merced,CA.
 
 ## Wireframes
 <img src="https://i.imgur.com/uXbLUS8.png" width=600>
-
-### [BONUS] Digital Wireframes & Mockups
-
-### [BONUS] Interactive Prototype
-
-## Schema 
-[This section will be completed in Unit 9]
-### Models
-[Add table of models]
-### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
