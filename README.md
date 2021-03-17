@@ -94,6 +94,15 @@ Post
 | createdAt| DataTime |   date when post is created (default field)
 | updatedAt| DataTime |   date when post is last updated (default field)
 
+
+Profile
+| Property | Type | Description|
+| --- | ----------- |-----------|
+| Profile Picture| image|  shows pic of user
+| Name| String |   username of the profile
+| Bookmarks| Array |   list of houses they bookmarked
+
+## 4. Data Models
 Chat
 get messages
 ```
@@ -137,11 +146,20 @@ Send Messages
         }
     }
 ```
-
-Profile
-| Property | Type | Description|
-| --- | ----------- |-----------|
-| Profile Picture| image|  shows pic of user
-| Name| String |   username of the profile
-| Bookmarks| Array |   list of houses they bookmarked
-
+Get posts
+```
+    func loadPosts(){
+        let query = PFQuery(className: "Posts")
+        query.order(byDescending: "createdAt")
+        query.includeKeys(["author", "comments", "comments.author"])
+        
+        query.limit = numberOfPosts
+        
+        query.findObjectsInBackground{ (posts, error) in
+            if posts != nil {
+                self.posts = posts!
+                self.tableView.reloadData()
+            }
+        }
+    }
+```
