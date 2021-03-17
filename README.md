@@ -1,6 +1,3 @@
-Original App Design Project - README Template
-===
-
 # Housing For UCM Students
 
 ## Table of Contents
