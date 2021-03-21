@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -111,7 +111,6 @@
 				001139EB894DEDF15DAB50EA /* Pods-HousingForUCMStudentsTests.debug.xcconfig */,
 				E2FBE6760FE10772E3AABE88 /* Pods-HousingForUCMStudentsTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -140,6 +139,10 @@
 		71AE2F9D260804DC00E7B722 /* HousingForUCMStudents */ = {
 			isa = PBXGroup;
 			children = (
+				71AE2FEB26080C1B00E7B722 /* Profile */,
+				71AE2FEA26080C1500E7B722 /* Chat */,
+				71AE2FE926080C0C00E7B722 /* Map */,
+				71AE2FE526080C0000E7B722 /* Feed */,
 				71AE2F9E260804DC00E7B722 /* AppDelegate.swift */,
 				71AE2FA0260804DC00E7B722 /* SceneDelegate.swift */,
 				71AE2FA2260804DC00E7B722 /* ViewController.swift */,
@@ -167,6 +170,34 @@
 				71AE2FC2260804DD00E7B722 /* Info.plist */,
 			);
 			path = HousingForUCMStudentsUITests;
+			sourceTree = "<group>";
+		};
+		71AE2FE526080C0000E7B722 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		71AE2FE926080C0C00E7B722 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		71AE2FEA26080C1500E7B722 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		71AE2FEB26080C1B00E7B722 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
