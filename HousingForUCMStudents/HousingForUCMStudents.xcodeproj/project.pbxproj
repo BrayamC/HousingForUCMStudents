@@ -15,6 +15,9 @@
 		71AE2FAB260804DD00E7B722 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71AE2FA9260804DD00E7B722 /* LaunchScreen.storyboard */; };
 		71AE2FB6260804DD00E7B722 /* HousingForUCMStudentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AE2FB5260804DD00E7B722 /* HousingForUCMStudentsTests.swift */; };
 		71AE2FC1260804DD00E7B722 /* HousingForUCMStudentsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AE2FC0260804DD00E7B722 /* HousingForUCMStudentsUITests.swift */; };
+		77EF36A8FDF05731F235A86A /* Pods_HousingForUCMStudents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A23458A4D66546B10BA099E7 /* Pods_HousingForUCMStudents.framework */; };
+		7E8368E27449D633C2841C9C /* Pods_HousingForUCMStudents_HousingForUCMStudentsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8D257CC705DDC03B6C3955D /* Pods_HousingForUCMStudents_HousingForUCMStudentsUITests.framework */; };
+		D1F8D1FD4FF67A28384F8224 /* Pods_HousingForUCMStudentsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2048679A218BEA5ECE6B2A0A /* Pods_HousingForUCMStudentsTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		001139EB894DEDF15DAB50EA /* Pods-HousingForUCMStudentsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HousingForUCMStudentsTests.debug.xcconfig"; path = "Target Support Files/Pods-HousingForUCMStudentsTests/Pods-HousingForUCMStudentsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1E7C949C0EABC4410AEA61C6 /* Pods-HousingForUCMStudents.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HousingForUCMStudents.release.xcconfig"; path = "Target Support Files/Pods-HousingForUCMStudents/Pods-HousingForUCMStudents.release.xcconfig"; sourceTree = "<group>"; };
+		2048679A218BEA5ECE6B2A0A /* Pods_HousingForUCMStudentsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HousingForUCMStudentsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3815E312B7FFDFD8A911EA35 /* Pods-HousingForUCMStudents.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HousingForUCMStudents.debug.xcconfig"; path = "Target Support Files/Pods-HousingForUCMStudents/Pods-HousingForUCMStudents.debug.xcconfig"; sourceTree = "<group>"; };
 		71AE2F9B260804DC00E7B722 /* HousingForUCMStudents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HousingForUCMStudents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71AE2F9E260804DC00E7B722 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71AE2FA0260804DC00E7B722 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +56,11 @@
 		71AE2FBC260804DD00E7B722 /* HousingForUCMStudentsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HousingForUCMStudentsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71AE2FC0260804DD00E7B722 /* HousingForUCMStudentsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HousingForUCMStudentsUITests.swift; sourceTree = "<group>"; };
 		71AE2FC2260804DD00E7B722 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A23458A4D66546B10BA099E7 /* Pods_HousingForUCMStudents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HousingForUCMStudents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6B7CC1FD37D067BD9157BCC /* Pods-HousingForUCMStudents-HousingForUCMStudentsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HousingForUCMStudents-HousingForUCMStudentsUITests.debug.xcconfig"; path = "Target Support Files/Pods-HousingForUCMStudents-HousingForUCMStudentsUITests/Pods-HousingForUCMStudents-HousingForUCMStudentsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B8D257CC705DDC03B6C3955D /* Pods_HousingForUCMStudents_HousingForUCMStudentsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HousingForUCMStudents_HousingForUCMStudentsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2FBE6760FE10772E3AABE88 /* Pods-HousingForUCMStudentsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HousingForUCMStudentsTests.release.xcconfig"; path = "Target Support Files/Pods-HousingForUCMStudentsTests/Pods-HousingForUCMStudentsTests.release.xcconfig"; sourceTree = "<group>"; };
+		EA9ADD3C437769665EBB8ACD /* Pods-HousingForUCMStudents-HousingForUCMStudentsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HousingForUCMStudents-HousingForUCMStudentsUITests.release.xcconfig"; path = "Target Support Files/Pods-HousingForUCMStudents-HousingForUCMStudentsUITests/Pods-HousingForUCMStudents-HousingForUCMStudentsUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77EF36A8FDF05731F235A86A /* Pods_HousingForUCMStudents.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1F8D1FD4FF67A28384F8224 /* Pods_HousingForUCMStudentsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E8368E27449D633C2841C9C /* Pods_HousingForUCMStudents_HousingForUCMStudentsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		37147C6BE3D4582974C3C192 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A23458A4D66546B10BA099E7 /* Pods_HousingForUCMStudents.framework */,
+				B8D257CC705DDC03B6C3955D /* Pods_HousingForUCMStudents_HousingForUCMStudentsUITests.framework */,
+				2048679A218BEA5ECE6B2A0A /* Pods_HousingForUCMStudentsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5DFB42330EF9B9460CE110E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3815E312B7FFDFD8A911EA35 /* Pods-HousingForUCMStudents.debug.xcconfig */,
+				1E7C949C0EABC4410AEA61C6 /* Pods-HousingForUCMStudents.release.xcconfig */,
+				A6B7CC1FD37D067BD9157BCC /* Pods-HousingForUCMStudents-HousingForUCMStudentsUITests.debug.xcconfig */,
+				EA9ADD3C437769665EBB8ACD /* Pods-HousingForUCMStudents-HousingForUCMStudentsUITests.release.xcconfig */,
+				001139EB894DEDF15DAB50EA /* Pods-HousingForUCMStudentsTests.debug.xcconfig */,
+				E2FBE6760FE10772E3AABE88 /* Pods-HousingForUCMStudentsTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		71AE2F92260804DC00E7B722 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +122,8 @@
 				71AE2FB4260804DD00E7B722 /* HousingForUCMStudentsTests */,
 				71AE2FBF260804DD00E7B722 /* HousingForUCMStudentsUITests */,
 				71AE2F9C260804DC00E7B722 /* Products */,
+				5DFB42330EF9B9460CE110E7 /* Pods */,
+				37147C6BE3D4582974C3C192 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 71AE2FC5260804DD00E7B722 /* Build configuration list for PBXNativeTarget "HousingForUCMStudents" */;
 			buildPhases = (
+				88AC33B31A17B614907434C1 /* [CP] Check Pods Manifest.lock */,
 				71AE2F97260804DC00E7B722 /* Sources */,
 				71AE2F98260804DC00E7B722 /* Frameworks */,
 				71AE2F99260804DC00E7B722 /* Resources */,
+				7576525FD8ECE9887E55DE67 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 71AE2FC8260804DD00E7B722 /* Build configuration list for PBXNativeTarget "HousingForUCMStudentsTests" */;
 			buildPhases = (
+				DC2E8ECBA7AF6228274C0F95 /* [CP] Check Pods Manifest.lock */,
 				71AE2FAD260804DD00E7B722 /* Sources */,
 				71AE2FAE260804DD00E7B722 /* Frameworks */,
 				71AE2FAF260804DD00E7B722 /* Resources */,
@@ -170,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 71AE2FCB260804DD00E7B722 /* Build configuration list for PBXNativeTarget "HousingForUCMStudentsUITests" */;
 			buildPhases = (
+				CAA9B2340728E52766075E50 /* [CP] Check Pods Manifest.lock */,
 				71AE2FB8260804DD00E7B722 /* Sources */,
 				71AE2FB9260804DD00E7B722 /* Frameworks */,
 				71AE2FBA260804DD00E7B722 /* Resources */,
+				A524DF5A69746FB52C7EB245 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +298,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7576525FD8ECE9887E55DE67 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HousingForUCMStudents/Pods-HousingForUCMStudents-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HousingForUCMStudents/Pods-HousingForUCMStudents-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HousingForUCMStudents/Pods-HousingForUCMStudents-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88AC33B31A17B614907434C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HousingForUCMStudents-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A524DF5A69746FB52C7EB245 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HousingForUCMStudents-HousingForUCMStudentsUITests/Pods-HousingForUCMStudents-HousingForUCMStudentsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HousingForUCMStudents-HousingForUCMStudentsUITests/Pods-HousingForUCMStudents-HousingForUCMStudentsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HousingForUCMStudents-HousingForUCMStudentsUITests/Pods-HousingForUCMStudents-HousingForUCMStudentsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAA9B2340728E52766075E50 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HousingForUCMStudents-HousingForUCMStudentsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC2E8ECBA7AF6228274C0F95 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HousingForUCMStudentsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		71AE2F97260804DC00E7B722 /* Sources */ = {
@@ -433,6 +582,7 @@
 		};
 		71AE2FC6260804DD00E7B722 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3815E312B7FFDFD8A911EA35 /* Pods-HousingForUCMStudents.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +602,7 @@
 		};
 		71AE2FC7260804DD00E7B722 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E7C949C0EABC4410AEA61C6 /* Pods-HousingForUCMStudents.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +622,7 @@
 		};
 		71AE2FC9260804DD00E7B722 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 001139EB894DEDF15DAB50EA /* Pods-HousingForUCMStudentsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +645,7 @@
 		};
 		71AE2FCA260804DD00E7B722 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2FBE6760FE10772E3AABE88 /* Pods-HousingForUCMStudentsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +668,7 @@
 		};
 		71AE2FCC260804DD00E7B722 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6B7CC1FD37D067BD9157BCC /* Pods-HousingForUCMStudents-HousingForUCMStudentsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +689,7 @@
 		};
 		71AE2FCD260804DD00E7B722 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA9ADD3C437769665EBB8ACD /* Pods-HousingForUCMStudents-HousingForUCMStudentsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
