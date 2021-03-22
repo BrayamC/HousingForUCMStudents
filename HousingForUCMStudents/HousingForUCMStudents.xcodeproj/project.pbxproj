@@ -15,8 +15,8 @@
 		71AE2FAB260804DD00E7B722 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71AE2FA9260804DD00E7B722 /* LaunchScreen.storyboard */; };
 		71AE2FB6260804DD00E7B722 /* HousingForUCMStudentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AE2FB5260804DD00E7B722 /* HousingForUCMStudentsTests.swift */; };
 		71AE2FC1260804DD00E7B722 /* HousingForUCMStudentsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AE2FC0260804DD00E7B722 /* HousingForUCMStudentsUITests.swift */; };
-		71AE2FF826080FAF00E7B722 /* FeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AE2FF726080FAF00E7B722 /* FeedTableViewController.swift */; };
 		71AE2FFD26080FD400E7B722 /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AE2FFC26080FD400E7B722 /* FeedTableViewCell.swift */; };
+		71AE30052608161500E7B722 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AE30042608161500E7B722 /* FeedViewController.swift */; };
 		77EF36A8FDF05731F235A86A /* Pods_HousingForUCMStudents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A23458A4D66546B10BA099E7 /* Pods_HousingForUCMStudents.framework */; };
 		7E8368E27449D633C2841C9C /* Pods_HousingForUCMStudents_HousingForUCMStudentsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8D257CC705DDC03B6C3955D /* Pods_HousingForUCMStudents_HousingForUCMStudentsUITests.framework */; };
 		D1F8D1FD4FF67A28384F8224 /* Pods_HousingForUCMStudentsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2048679A218BEA5ECE6B2A0A /* Pods_HousingForUCMStudentsTests.framework */; };
@@ -58,8 +58,8 @@
 		71AE2FBC260804DD00E7B722 /* HousingForUCMStudentsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HousingForUCMStudentsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71AE2FC0260804DD00E7B722 /* HousingForUCMStudentsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HousingForUCMStudentsUITests.swift; sourceTree = "<group>"; };
 		71AE2FC2260804DD00E7B722 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		71AE2FF726080FAF00E7B722 /* FeedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewController.swift; sourceTree = "<group>"; };
 		71AE2FFC26080FD400E7B722 /* FeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
+		71AE30042608161500E7B722 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		A23458A4D66546B10BA099E7 /* Pods_HousingForUCMStudents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HousingForUCMStudents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6B7CC1FD37D067BD9157BCC /* Pods-HousingForUCMStudents-HousingForUCMStudentsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HousingForUCMStudents-HousingForUCMStudentsUITests.debug.xcconfig"; path = "Target Support Files/Pods-HousingForUCMStudents-HousingForUCMStudentsUITests/Pods-HousingForUCMStudents-HousingForUCMStudentsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B8D257CC705DDC03B6C3955D /* Pods_HousingForUCMStudents_HousingForUCMStudentsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HousingForUCMStudents_HousingForUCMStudentsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -179,8 +179,8 @@
 		71AE2FE526080C0000E7B722 /* Feed */ = {
 			isa = PBXGroup;
 			children = (
-				71AE2FF726080FAF00E7B722 /* FeedTableViewController.swift */,
 				71AE2FFC26080FD400E7B722 /* FeedTableViewCell.swift */,
+				71AE30042608161500E7B722 /* FeedViewController.swift */,
 			);
 			path = Feed;
 			sourceTree = "<group>";
@@ -446,8 +446,8 @@
 			files = (
 				71AE2FA3260804DC00E7B722 /* ViewController.swift in Sources */,
 				71AE2F9F260804DC00E7B722 /* AppDelegate.swift in Sources */,
+				71AE30052608161500E7B722 /* FeedViewController.swift in Sources */,
 				71AE2FA1260804DC00E7B722 /* SceneDelegate.swift in Sources */,
-				71AE2FF826080FAF00E7B722 /* FeedTableViewController.swift in Sources */,
 				71AE2FFD26080FD400E7B722 /* FeedTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

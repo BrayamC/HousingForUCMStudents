@@ -145,6 +145,9 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Feed" id="zc1-oj-18K"/>
+                    <connections>
+                        <outlet property="tableView" destination="mJW-cA-K6T" id="AmT-Dc-MPj"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hwO-dU-2Qz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
