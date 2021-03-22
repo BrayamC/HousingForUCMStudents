@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="BPt-4p-cUY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Profile" id="7fh-a6-GuH"/>
                     <navigationItem key="navigationItem" id="eF6-qw-ZaP"/>
@@ -53,6 +53,8 @@
                     </tabBar>
                     <connections>
                         <segue destination="So5-uI-YUt" kind="relationship" relationship="viewControllers" id="2Fm-GQ-RC8"/>
+                        <segue destination="wEj-kd-7Vx" kind="relationship" relationship="viewControllers" id="uuv-cJ-Dfp"/>
+                        <segue destination="ora-Cb-sb6" kind="relationship" relationship="viewControllers" id="Hjd-9V-gua"/>
                         <segue destination="pY9-Ap-fxS" kind="relationship" relationship="viewControllers" id="7cO-CF-rhu"/>
                     </connections>
                 </tabBarController>
@@ -168,11 +170,32 @@
                             <outlet property="delegate" destination="isF-5B-1xc" id="u2J-dG-9dp"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Feed" id="zc1-oj-18K"/>
+                    <navigationItem key="navigationItem" title="Feed" id="zc1-oj-18K">
+                        <barButtonItem key="rightBarButtonItem" title="Post" image="square.and.pencil" catalog="system" id="GMP-e5-1hd">
+                            <connections>
+                                <segue destination="X6T-1o-PA9" kind="presentation" id="IZr-CR-1Mp"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hwO-dU-2Qz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-4097.1014492753629" y="2243.9732142857142"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="gIW-Fm-Igx">
+            <objects>
+                <viewController id="X6T-1o-PA9" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Bha-vs-o6J">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="WOp-NM-qRD"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DuX-ja-TeE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4112" y="3035"/>
         </scene>
         <!--Feed-->
         <scene sceneID="98H-y6-lXK">
@@ -214,7 +237,7 @@
         <scene sceneID="SZk-Tv-12t">
             <objects>
                 <navigationController id="wEj-kd-7Vx" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Map" id="dNd-M4-hWM"/>
+                    <tabBarItem key="tabBarItem" title="Map" image="map" catalog="system" id="dNd-M4-hWM"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="vBX-iY-kpz">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -235,19 +258,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="UDm-Ri-bdh"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <navigationItem key="navigationItem" id="3r9-ZJ-yMm"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9JI-dx-boF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1465" y="2244"/>
+            <point key="canvasLocation" x="-1465.217391304348" y="2243.9732142857142"/>
         </scene>
         <!--Chat-->
         <scene sceneID="WMM-3v-Ewq">
             <objects>
                 <navigationController id="ora-Cb-sb6" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Chat" id="cqi-1C-GEq"/>
+                    <tabBarItem key="tabBarItem" title="Chat" image="bubble.right.fill" catalog="system" id="cqi-1C-GEq"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="jwg-cy-GNX">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -262,9 +285,12 @@
         </scene>
     </scenes>
     <resources>
+        <image name="bubble.right.fill" catalog="system" width="128" height="110"/>
         <image name="house.fill" catalog="system" width="128" height="106"/>
+        <image name="map" catalog="system" width="128" height="110"/>
         <image name="person.fill" catalog="system" width="128" height="120"/>
         <image name="rectangle.grid.1x2.fill" catalog="system" width="128" height="101"/>
+        <image name="square.and.pencil" catalog="system" width="128" height="115"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
