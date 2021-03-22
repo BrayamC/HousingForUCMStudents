@@ -158,6 +158,8 @@
                                 <connections>
                                     <outlet property="houseAddressLabel" destination="6J1-iC-jes" id="9qv-4d-iYr"/>
                                     <outlet property="houseImageView" destination="Mnx-4e-kLX" id="9Sj-4O-qaM"/>
+                                    <outlet property="housePriceLabel" destination="fZ2-gb-5ZP" id="VPL-LT-9zy"/>
+                                    <outlet property="houseRoomsLabel" destination="A4E-Xc-V3U" id="9lg-MY-XTM"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>

@@ -11,6 +11,9 @@ class FeedTableViewCell: UITableViewCell {
 
     @IBOutlet weak var houseImageView: UIImageView!
     @IBOutlet weak var houseAddressLabel: UILabel!
+    @IBOutlet weak var houseRoomsLabel: UILabel!
+    @IBOutlet weak var housePriceLabel: UILabel!
+    
     
     override func awakeFromNib() {
         super.awakeFromNib()

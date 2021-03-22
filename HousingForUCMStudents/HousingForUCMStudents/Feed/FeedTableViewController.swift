@@ -35,7 +35,10 @@ class FeedTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "feedCell", for: indexPath) as! FeedTableViewCell
 
-        //cell.houseAddressLabel.text = "abc"
+        cell.houseAddressLabel.text = "123 Street St Merced, CA 123567*"
+        cell.houseRoomsLabel.text = "4 beds - 2 Bathrooms*"
+        cell.housePriceLabel.text = "$450 per room*"
+
         return cell
     }
     
