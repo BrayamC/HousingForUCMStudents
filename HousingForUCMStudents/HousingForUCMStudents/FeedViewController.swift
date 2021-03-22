@@ -17,7 +17,12 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        return UITableViewCell()
+        
+        let cell = tableView.dequeueReusableCell(withIdentifier: "", for: indexPath) as! FeedTableViewCell
+        
+        cell.houseAddressLabel.text = "fsfsfsf"
+        
+        return cell
     }
     
 
