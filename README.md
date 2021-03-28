@@ -163,3 +163,27 @@ Get posts
         }
     }
 ```
+
+# UNIT 9
+## Stories
+- [X] create repository
+- [X] assign taks
+- [X] implement skeleton
+
+# UNIT 10
+### 1. Updated status of issues in Project board (2pts)
+### 2. Sprint planned for next week (Issues created, assigned & added to project board) (3pts)
+- [] login/sign up
+- [] contraints for login/sign up
+- [] Feed
+- [] contraints for feed
+### 3. Completed user stories checked-off in README (2pts)
+### 4. Gifs created to show build progress and added to README (3pts)
+
+### User Stories
+## Login
+<img src="" width=600>
+## Feed
+<img src="" width=600>
+## Profile
+<img src="" width=600>
