@@ -184,6 +184,7 @@ Get posts
 ## Login
 <img src="" width=600>
 ## Feed
-<img src="" width=600>
+<img src="http://g.recordit.co/0SlQ0eAMhr.gif" width=600> 
+<img src="http://g.recordit.co/owWBX8DQO7.gif" width=600>
 ## Profile
 <img src="" width=600>
