@@ -1,6 +1,0 @@
-framework module Pods_HousingForUCMStudents {
-  umbrella header "Pods-HousingForUCMStudents-umbrella.h"
-
-  export *
-  module * { export * }
-}
