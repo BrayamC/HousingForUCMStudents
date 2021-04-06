@@ -182,7 +182,7 @@ Get posts
 
 ### User Stories
 ## Login
-<img src="" width=600>
+<img src="http://g.recordit.co/xTODDLLNdN.gif" width=600>
 ## Feed
 <img src="http://g.recordit.co/0SlQ0eAMhr.gif" width=600> 
 <img src="http://g.recordit.co/owWBX8DQO7.gif" width=600>
