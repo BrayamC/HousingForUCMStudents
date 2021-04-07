@@ -134,6 +134,7 @@
                     </view>
                     <connections>
                         <outlet property="passwordField" destination="N6Y-KN-CbH" id="ikM-cB-GPr"/>
+                        <outlet property="usernameField" destination="Uh8-ki-hQh" id="M9C-5I-Tbh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
