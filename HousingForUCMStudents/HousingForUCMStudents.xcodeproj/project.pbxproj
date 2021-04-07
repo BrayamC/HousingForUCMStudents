@@ -10,7 +10,6 @@
 		711EC0D626082137005D24CD /* FeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711EC0D526082137005D24CD /* FeedTableViewController.swift */; };
 		71AE2F9F260804DC00E7B722 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AE2F9E260804DC00E7B722 /* AppDelegate.swift */; };
 		71AE2FA1260804DC00E7B722 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AE2FA0260804DC00E7B722 /* SceneDelegate.swift */; };
-		71AE2FA3260804DC00E7B722 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AE2FA2260804DC00E7B722 /* ViewController.swift */; };
 		71AE2FA6260804DC00E7B722 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71AE2FA4260804DC00E7B722 /* Main.storyboard */; };
 		71AE2FA8260804DD00E7B722 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71AE2FA7260804DD00E7B722 /* Assets.xcassets */; };
 		71AE2FAB260804DD00E7B722 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71AE2FA9260804DD00E7B722 /* LaunchScreen.storyboard */; };
@@ -20,6 +19,7 @@
 		77EF36A8FDF05731F235A86A /* Pods_HousingForUCMStudents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A23458A4D66546B10BA099E7 /* Pods_HousingForUCMStudents.framework */; };
 		7E8368E27449D633C2841C9C /* Pods_HousingForUCMStudents_HousingForUCMStudentsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8D257CC705DDC03B6C3955D /* Pods_HousingForUCMStudents_HousingForUCMStudentsUITests.framework */; };
 		D1F8D1FD4FF67A28384F8224 /* Pods_HousingForUCMStudentsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2048679A218BEA5ECE6B2A0A /* Pods_HousingForUCMStudentsTests.framework */; };
+		D72E4365261C28FD0073A02D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72E4364261C28FD0073A02D /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +48,6 @@
 		71AE2F9B260804DC00E7B722 /* HousingForUCMStudents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HousingForUCMStudents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71AE2F9E260804DC00E7B722 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71AE2FA0260804DC00E7B722 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		71AE2FA2260804DC00E7B722 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		71AE2FA5260804DC00E7B722 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		71AE2FA7260804DD00E7B722 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71AE2FAA260804DD00E7B722 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -63,6 +62,7 @@
 		A23458A4D66546B10BA099E7 /* Pods_HousingForUCMStudents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HousingForUCMStudents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6B7CC1FD37D067BD9157BCC /* Pods-HousingForUCMStudents-HousingForUCMStudentsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HousingForUCMStudents-HousingForUCMStudentsUITests.debug.xcconfig"; path = "Target Support Files/Pods-HousingForUCMStudents-HousingForUCMStudentsUITests/Pods-HousingForUCMStudents-HousingForUCMStudentsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B8D257CC705DDC03B6C3955D /* Pods_HousingForUCMStudents_HousingForUCMStudentsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HousingForUCMStudents_HousingForUCMStudentsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D72E4364261C28FD0073A02D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		E2FBE6760FE10772E3AABE88 /* Pods-HousingForUCMStudentsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HousingForUCMStudentsTests.release.xcconfig"; path = "Target Support Files/Pods-HousingForUCMStudentsTests/Pods-HousingForUCMStudentsTests.release.xcconfig"; sourceTree = "<group>"; };
 		EA9ADD3C437769665EBB8ACD /* Pods-HousingForUCMStudents-HousingForUCMStudentsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HousingForUCMStudents-HousingForUCMStudentsUITests.release.xcconfig"; path = "Target Support Files/Pods-HousingForUCMStudents-HousingForUCMStudentsUITests/Pods-HousingForUCMStudents-HousingForUCMStudentsUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -149,8 +149,8 @@
 				71AE2FE526080C0000E7B722 /* Feed */,
 				71AE2F9E260804DC00E7B722 /* AppDelegate.swift */,
 				71AE2FA0260804DC00E7B722 /* SceneDelegate.swift */,
-				71AE2FA2260804DC00E7B722 /* ViewController.swift */,
 				71AE2FA4260804DC00E7B722 /* Main.storyboard */,
+				D72E4364261C28FD0073A02D /* LoginViewController.swift */,
 				71AE2FA7260804DD00E7B722 /* Assets.xcassets */,
 				71AE2FA9260804DD00E7B722 /* LaunchScreen.storyboard */,
 				71AE2FAC260804DD00E7B722 /* Info.plist */,
@@ -444,10 +444,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71AE2FA3260804DC00E7B722 /* ViewController.swift in Sources */,
 				711EC0D626082137005D24CD /* FeedTableViewController.swift in Sources */,
 				71AE2F9F260804DC00E7B722 /* AppDelegate.swift in Sources */,
 				71AE2FA1260804DC00E7B722 /* SceneDelegate.swift in Sources */,
+				D72E4365261C28FD0073A02D /* LoginViewController.swift in Sources */,
 				71AE2FFD26080FD400E7B722 /* FeedTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
