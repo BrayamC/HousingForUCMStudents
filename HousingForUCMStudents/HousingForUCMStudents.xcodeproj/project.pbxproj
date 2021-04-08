@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		711EC0D626082137005D24CD /* FeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711EC0D526082137005D24CD /* FeedTableViewController.swift */; };
+		71230F50261F90B30037C5EE /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71230F4F261F90B30037C5EE /* PostViewController.swift */; };
 		71AE2F9F260804DC00E7B722 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AE2F9E260804DC00E7B722 /* AppDelegate.swift */; };
 		71AE2FA1260804DC00E7B722 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AE2FA0260804DC00E7B722 /* SceneDelegate.swift */; };
 		71AE2FA6260804DC00E7B722 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71AE2FA4260804DC00E7B722 /* Main.storyboard */; };
@@ -45,6 +46,7 @@
 		2048679A218BEA5ECE6B2A0A /* Pods_HousingForUCMStudentsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HousingForUCMStudentsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3815E312B7FFDFD8A911EA35 /* Pods-HousingForUCMStudents.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HousingForUCMStudents.debug.xcconfig"; path = "Target Support Files/Pods-HousingForUCMStudents/Pods-HousingForUCMStudents.debug.xcconfig"; sourceTree = "<group>"; };
 		711EC0D526082137005D24CD /* FeedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewController.swift; sourceTree = "<group>"; };
+		71230F4F261F90B30037C5EE /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		71AE2F9B260804DC00E7B722 /* HousingForUCMStudents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HousingForUCMStudents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71AE2F9E260804DC00E7B722 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71AE2FA0260804DC00E7B722 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -118,6 +120,14 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		71230F4B261F8EF40037C5EE /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				71230F4F261F90B30037C5EE /* PostViewController.swift */,
+			);
+			path = Post;
+			sourceTree = "<group>";
+		};
 		71AE2F92260804DC00E7B722 = {
 			isa = PBXGroup;
 			children = (
@@ -146,6 +156,7 @@
 				71AE2FEB26080C1B00E7B722 /* Profile */,
 				71AE2FEA26080C1500E7B722 /* Chat */,
 				71AE2FE926080C0C00E7B722 /* Map */,
+				71230F4B261F8EF40037C5EE /* Post */,
 				71AE2FE526080C0000E7B722 /* Feed */,
 				71AE2F9E260804DC00E7B722 /* AppDelegate.swift */,
 				71AE2FA0260804DC00E7B722 /* SceneDelegate.swift */,
@@ -179,8 +190,8 @@
 		71AE2FE526080C0000E7B722 /* Feed */ = {
 			isa = PBXGroup;
 			children = (
-				71AE2FFC26080FD400E7B722 /* FeedTableViewCell.swift */,
 				711EC0D526082137005D24CD /* FeedTableViewController.swift */,
+				71AE2FFC26080FD400E7B722 /* FeedTableViewCell.swift */,
 			);
 			path = Feed;
 			sourceTree = "<group>";
@@ -444,6 +455,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71230F50261F90B30037C5EE /* PostViewController.swift in Sources */,
 				711EC0D626082137005D24CD /* FeedTableViewController.swift in Sources */,
 				71AE2F9F260804DC00E7B722 /* AppDelegate.swift in Sources */,
 				71AE2FA1260804DC00E7B722 /* SceneDelegate.swift in Sources */,
